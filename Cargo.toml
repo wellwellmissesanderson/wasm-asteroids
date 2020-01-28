@@ -1,14 +1,16 @@
 [package]
-name = "svg-asteroids"
+name = "wasm-asteroids"
 license = "MIT"
 licence-file = "LICENSE.MIT"
 version = "0.1.0"
-authors = ["Igor null <m1el.2027@gmail.com>"]
+authors = ["missesanderson <heatherandersoncreative@gmail.com>"]
+repository = "https://github.com/wellwellmissesanderson/wasm-asteroids.git"
 
 [lib]
 crate-type=["cdylib"]
 
 [dependencies]
+wasm-bindgen = "0.2"
 
 [dependencies.rand]
 version = "0.4.1"
